@@ -8,7 +8,6 @@ function CreateBook(){
         addTitle(e.target.value);
     }
     const addBook = () => {
-        console.log('title=',Boolean(title.trim()));
         if(title.trim()){
             addNewBook(title);
             addTitle('')
